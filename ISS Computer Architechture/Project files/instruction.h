@@ -56,7 +56,7 @@ class BrneInstruction : public Instruction
 {
 public:
 	int execute(Registers* reg_Pointer) {
-		if (Rs != Rd)
+		if (reg_Pointer->getRegister(Rs) != reg_Pointer->getRegister(Rd))
 		{
 			reg_Pointer->setPC(Rt);
 		}

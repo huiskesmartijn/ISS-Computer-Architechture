@@ -30,8 +30,8 @@ int main (void)
 	Registers myRegisters;
 	myRegisters.setRegister(0, 0);
 	myRegisters.setRegister(1, 0);
-	myRegisters.setPC(100);
-	BrneInstruction instruction1(1,0,50);
+	myRegisters.setPC(45);
+	BrneInstruction instruction1(1,2,42);
 	instruction1.execute(&myRegisters);
 	myRegisters.print();
 	cout << myRegisters.getPC() << endl;
