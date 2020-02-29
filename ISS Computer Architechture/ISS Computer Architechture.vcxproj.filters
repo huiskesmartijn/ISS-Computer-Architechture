@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\iss\main.cpp">
+    <ClCompile Include="Project files\instruction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\iss\program.cpp">
+    <ClCompile Include="Project files\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\iss\registers.cpp">
+    <ClCompile Include="Project files\program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\iss\simulator.cpp">
+    <ClCompile Include="Project files\registers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\iss\instruction.cpp">
+    <ClCompile Include="Project files\simulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\iss\instruction.h">
+    <ClInclude Include="Project files\instruction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\iss\program.h">
+    <ClInclude Include="Project files\program.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\iss\registers.h">
+    <ClInclude Include="Project files\registers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\iss\simulator.h">
+    <ClInclude Include="Project files\simulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
