@@ -79,7 +79,7 @@ public:
 	int execute(Registers* reg_Pointer) {
 		if (reg_Pointer->getRegister(Rs) != reg_Pointer->getRegister(Rd))
 		{
-			reg_Pointer->setPC((reg_Pointer -> getPC()) + Rt); // Set the PC to the current PC plus the reference
+			reg_Pointer->setPC((reg_Pointer -> getPC()) + Rt);
 		}
 		else
 		{

@@ -3,20 +3,20 @@
 #include "registers.h"
 #include "instruction.h"
 
-//void loadProgram (Program *program)
-//{
-//	program->appendInstruction (new OriInstruction (1, 0, 12));
-//	program->appendInstruction (new OriInstruction (2, 0, 4));
-//	program->appendInstruction (new OriInstruction (3, 0, 1));
-//	program->appendInstruction (new AddInstruction (4, 4, 1));
-//	program->appendInstruction (new SubInstruction (2, 2, 3));
-//	program->appendInstruction (new BrneInstruction (2, 0, -3));
-//}
+void loadProgram (Program *program)
+{
+	program->appendInstruction (new OriInstruction (1, 0, 12));
+	program->appendInstruction (new OriInstruction (2, 0, 4));
+	program->appendInstruction (new OriInstruction (3, 0, 1));
+	program->appendInstruction (new AddInstruction (4, 4, 1));
+	program->appendInstruction (new SubInstruction (2, 2, 3));
+	program->appendInstruction (new BrneInstruction (2, 0, -3));
+}
 
 
 int main (void)
 {
-	/*Registers *registers	= new Registers ();
+	Registers *registers	= new Registers ();
 	Program	*program	= new Program ();
 
 	loadProgram (program);
@@ -25,14 +25,14 @@ int main (void)
 
 	theSimulator.ui ();
 
-	return 0;*/
+	return 0;
 
-	Registers myRegisters;
+	/*Registers myRegisters;
 	myRegisters.setRegister(0, 0);
 	myRegisters.setRegister(1, 0);
 	myRegisters.setPC(45);
 	BrneInstruction instruction1(1,2,42);
 	instruction1.execute(&myRegisters);
 	myRegisters.print();
-	cout << myRegisters.getPC() << endl;
+	cout << myRegisters.getPC() << endl;*/
 }
