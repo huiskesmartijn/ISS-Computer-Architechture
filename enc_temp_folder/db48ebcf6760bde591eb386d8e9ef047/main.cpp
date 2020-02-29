@@ -27,19 +27,6 @@ int main (void)
 
 	return 0;
 
-
-	//the symbolic representation in the C++ program matches the MIPS assembly except from the loop label, which is replaced by a relative value of to PC
-	//program:
-	//i = 4
-	//a = 0
-	//	while (i!=0)
-	//	{
-	//		a = a+12
-	//		i--
-	//	}
-
-
-
 	/*Registers myRegisters;
 	myRegisters.setRegister(0, 0);
 	myRegisters.setRegister(1, 0);
